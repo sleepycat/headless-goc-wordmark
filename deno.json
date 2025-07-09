@@ -1,0 +1,50 @@
+{
+  "name": "@sleepycat/headless-goc-wordmark",
+  "version": "1.0.0",
+  "exports": "./mod.ts",
+  "types": "./mod.ts",
+  "files": ["mod.ts", "main.tsx", "README.md", "LICENSE"],
+  "tasks": {
+    "dev": "deno run --watch main.tsx",
+    "test": "deno test --no-check --allow-env",
+    "test:check": "deno test --allow-env",
+    "fmt": "deno fmt",
+    "lint": "deno lint"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@^1.0.0",
+    "@std/testing/bdd": "jsr:@std/testing@^1.0.0/bdd",
+    "@std/expect": "jsr:@std/expect@^1.0.0",
+    "@testing-library/react": "npm:@testing-library/react@^16.3.0",
+    "react": "npm:react@^19.1.0",
+    "react/jsx-runtime": "npm:react@^19.1.0/jsx-runtime",
+    "react/jsx-dev-runtime": "npm:react@^19.1.0/jsx-dev-runtime",
+    "@types/react": "npm:@types/react@^18.2.62",
+    "@types/react/jsx-runtime": "npm:@types/react@^18.2.62/jsx-runtime",
+    "happy-dom": "npm:happy-dom@^18.0.1"
+  },
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "strict": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "lint": {
+    "rules": {
+      "tags": ["recommended"]
+    }
+  },
+  "fmt": {
+    "useTabs": false,
+    "lineWidth": 80,
+    "indentWidth": 2,
+    "semiColons": false,
+    "singleQuote": false,
+    "proseWrap": "preserve"
+  }
+}
