@@ -1,6 +1,6 @@
 {
   "name": "@sleepycat/headless-goc-wordmark",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "exports": "./mod.ts",
   "types": "./mod.ts",
   "files": ["mod.ts", "main.tsx", "README.md", "LICENSE"],
@@ -16,9 +16,9 @@
     "@std/testing/bdd": "jsr:@std/testing@^1.0.0/bdd",
     "@std/expect": "jsr:@std/expect@^1.0.0",
     "@testing-library/react": "npm:@testing-library/react@^16.3.0",
-    "react": "npm:react@^19.1.0",
-    "react/jsx-runtime": "npm:react@^19.1.0/jsx-runtime",
-    "react/jsx-dev-runtime": "npm:react@^19.1.0/jsx-dev-runtime",
+    "react": "npm:react@^19",
+    "react/jsx-runtime": "npm:react@^19/jsx-runtime",
+    "react/jsx-dev-runtime": "npm:react@^19/jsx-dev-runtime",
     "@types/react": "npm:@types/react@^18.2.62",
     "@types/react/jsx-runtime": "npm:@types/react@^18.2.62/jsx-runtime",
     "happy-dom": "npm:happy-dom@^18.0.1"
