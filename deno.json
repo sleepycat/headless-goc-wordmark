@@ -1,6 +1,6 @@
 {
   "name": "@sleepycat/headless-goc-wordmark",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "exports": "./mod.ts",
   "types": "./mod.ts",
   "files": ["mod.ts", "main.tsx", "README.md", "LICENSE"],

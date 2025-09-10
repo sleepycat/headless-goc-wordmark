@@ -1,4 +1,4 @@
-import { Window } from "npm:happy-dom"
+import { Window } from "happy-dom"
 
 const window = new Window()
 

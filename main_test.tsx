@@ -6,8 +6,8 @@ import {
   beforeEach,
   describe,
   it,
-} from "jsr:@std/testing/bdd"
-import { expect } from "jsr:@std/expect"
+} from "@std/testing/bdd"
+import { expect } from "@std/expect"
 import { cleanup, render, screen } from "@testing-library/react"
 import { Flag, SVG, Text } from "./mod.ts"
 
